@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Udacity Portfolio | Colin Skinner</title>
+  <link rel="stylesheet" href="css/bootstrap-slate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--Header-->
+    <header class="row">
+      <div class="col-xs-3">
+        <img class="logo" src="images/udacity-logo.png" alt="Udacity logo">
+      </div>
+      <div class="col-xs-9 identity">
+        <h1><span class="name">Colin Skinner</span></h1>
+        <h4><span class="title">front-end ninja</span></h4>
+      </div>
+    </header>
+
+    <hr class="hr-top">
+
+    <!--Jumbotron-->
+    <section class="row">
+      <div class="col-xs-12">
+        <div class="jumborder">
+          <div class="jumbotron">
+            <h2><span class="opt shd">Resume</span></h2>
+            <p><span class="opt shd unpad">Where I've been, what I've done.</span></p>
+            <p><a class="btn btn-info opt" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">View resume</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section class="row">
+      <div class="col-xs-12">
+        <h2 class="opt">Featured Work</h2>
+        <p class="desc opt">Check out some of my recent projects.</p>
+      </div>
+    </section>
+
+    <section class="row">
+
+      <!--Arcade Game-->
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <div class="project">
+            <picture>
+              <!--Make project images square for large layouts-->
+              <source srcset="images/p3_260h.jpg" media="(min-width: 923px)">
+              <img class="prj-img" src="images/p3_160h.jpg" alt="Arcade Game">
+            </picture>
+            <div class="prj-grad"></div>
+            <div class="prj-text">
+              <h3 class="prj-name">Arcade Game</h3>
+              <a class="prj-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">github.com/cskin/p3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Website Optimization-->
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <div class="project">
+            <picture>
+              <source srcset="images/p4_260h.jpg" media="(min-width: 923px)">
+              <img class="prj-img" src="images/p4_160h.jpg" alt="Website Optimization">
+            </picture>
+            <div class="prj-grad"></div>
+            <div class="prj-text">
+              <h3 class="prj-name">Website Optimization</h3>
+              <a class="prj-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">github.com/cskin/p4</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Neighborhood Map-->
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <div class="project">
+            <picture>
+              <source srcset="images/p5_260h.jpg" media="(min-width: 923px)">
+              <img class="prj-img" src="images/p5_160h.jpg" alt="Neighborhood Map">
+            </picture>
+            <div class="prj-grad"></div>
+            <div class="prj-text">
+              <h3 class="prj-name">Neighborhood Map</h3>
+              <a class="prj-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">github.com/cskin/p5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Feed Reader Testing-->
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <div class="project">
+            <picture>
+              <source srcset="images/p6_260h.jpg" media="(min-width: 923px)">
+              <img class="prj-img" src="images/p6_160h.jpg" alt="Feed Reader Testing">
+            </picture>
+            <div class="prj-grad"></div>
+            <div class="prj-text">
+              <h3 class="prj-name">Feed Reader Testing</h3>
+              <a class="prj-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">github.com/cskin/p6</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <hr class="hr-bottom">
+
+    <footer>
+      <p>Bulit by Colin Skinner using <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://bootswatch.com/slate/">Slate</a>. Images from <a href="https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji">Wikipedia</a>.</p>
+    </footer>
+
+  </div>
+
+  <!--Link scripts for tooltips-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/tooltip.js"></script>
+  <!--Activate tooltips-->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+</body>
+
+</html>
