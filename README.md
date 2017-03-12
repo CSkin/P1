@@ -1,4 +1,4 @@
-# P1
+# Udacity Portfolio Site
 Udacity Front-End Developer Nanodegree – Project 1: Build a Portfolio Site
 
 Project Description:
